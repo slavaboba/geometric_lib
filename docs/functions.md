@@ -3,12 +3,12 @@
 ## circle.py
 
 ### `area(r)`
-Вычисляет площадь круга по радиусу `r` по формуле **S = πR²**.
+Вычисляет площадь круга по радиусу `r` по формуле S = πR².
 
-**Параметры:** `r` — радиус (int | float, ≥ 0)
-**Возвращает:** `float` — площадь
+Параметры: `r` — радиус (int | float, ≥ 0)
+Возвращает: `float` — площадь
 
-**Пример:**
+Пример:
 ```python
 >>> import circle
 >>> circle.area(5)
@@ -26,6 +26,8 @@ perimeter(r)
 python
 >>> circle.perimeter(5)
 31.41592653589793
+
+
 
 
 
@@ -56,4 +58,34 @@ perimeter(a)
 python
 >>> square.perimeter(4)
 16
-text
+
+
+
+
+
+rectangle.py
+area(a, b)
+Вычисляет площадь прямоугольника по сторонам a и b по формуле S = a*b.
+
+Параметры: a — сторона (int | float, ≥ 0), b — сторона (int | float, ≥ 0)
+Возвращает: float | int — площадь
+
+Пример:
+
+python
+>>> import square
+>>> square.area(4, 5)
+20
+
+
+perimeter(a, b)
+Вычисляет периметр прямоугольника по стороне a и b по формуле P = 2(a + b).
+
+Параметры: a — сторона (int | float, ≥ 0), b — сторона (int | float, ≥ 0)
+Возвращает: float | int — периметр
+
+Пример:
+
+python
+>>> square.perimeter(4, 5)
+18
